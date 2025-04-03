@@ -53,7 +53,7 @@
     let totalPrice = 0;
 
     for (const product of products) {
-      totalPrice += product.price;
+      totalPrice += product.price; //Adding each price to Total Price
     }
 
     return totalPrice;
